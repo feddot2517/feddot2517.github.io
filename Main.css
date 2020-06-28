@@ -31,6 +31,7 @@ body {
 }
 
 .Main-view_block {
+  min-height: 300px;
   margin: 25px;
   flex-basis: 400px;
   flex-shrink: 1;
@@ -39,6 +40,11 @@ body {
 }
 
 .Main-view_block img {
+  width: 100%;
+  height: 100%;
+}
+
+model-viewer {
   width: 100%;
   height: 100%;
 }
