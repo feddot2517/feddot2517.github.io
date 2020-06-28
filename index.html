@@ -8,12 +8,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="Main.css">
     <meta name="theme-color" content="#fafafa">
+  <!--
+  webcomponents-loader is required to support older
+  versions of Edge and FIrefox
+  -->
+    <script src="./js/webcomponents-loader.js"></script>
+    <script src="./js/intersection-observer.js"></script>
+    <script src="./js/ResizeObserver.js"></script>
+    <!--
+      Fullscreen polyfill is required for experimental
+      AR features in Canary
+    -->
+    <script src="./js/fullscreen.polyfill.js"></script>-->
+
+    <!--
+      Magic Leap support
+    -->
+    <script src="./js/prismatic.js"></script>
 </head>
 
 <body>
 
-<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
-<script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+<script type="module" src="./js/model-viewer.js"></script>
+<script nomodule src="./js/model-viewer-legacy.js"></script>
 
 <div class="Main">
   <div class="Main-menu"></div>
