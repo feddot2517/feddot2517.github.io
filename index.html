@@ -2,82 +2,56 @@
 <html class="no-js" lang="">
 
 <head>
-  <meta charset="utf-8">
-  <title></title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:image" content="https://i.imgur.com/vFlr77N.png" />
-  <link rel="stylesheet" href="./main.css">
-  <meta name="theme-color" content="#fafafa">
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="Портфолио">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="Main.css">
+    <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
-  <!--[if IE]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]-->
-  <div class="mainVideo">
-    <video src="./video.mp4" type="video/mp4" controls></video>
+
+<div class="Main">
+  <div class="Main-menu"></div>
+  <div class="Main-view">
+    <div class="Main-view_block">
+      <img src="static/square.png">
+    </div>
+
+    <div class="Main-view_block">
+      <img src="static/square.png">
+    </div>
+
+    <div class="Main-view_block">
+      <img src="static/square.png">
+    </div>
+
+    <div class="Main-view_block">
+      <img src="static/square.png">
+    </div>
+
+    <div class="Main-view_block">
+      <img src="static/square.png">
+    </div>
+
+    <div class="Main-view_block">
+      <img src="static/square.png">
+    </div>
+
+    <div class="Main-view_block">
+      <img src="static/square.png">
+    </div>
+
+    <div class="Main-view_block">
+      <img src="static/square.png">
+    </div>
   </div>
-  
-  <div class="share">
-    <tr>
-      <td>
-        <div class="share-friend">
-          Поделитесь с друзьями:
-      </div>
-      </td>
-      <td>
-        <a 
-        href="#"
-        onclick="this.href=`https://vk.com/share.php?url=${baseUrl}&title=Partynoise&image=https://imgur.com/hfZjtBv.png`"
-        target="_blank"
-        >
-          <img class="icon" src="./icon/vk.png" alt="vk-icon" >
-        </a>
-      </td>
-      <td>
-        <a href="#"
-           onclick="this.href=`https://twitter.com/intent/tweet?text=Partynoise&url=${baseUrl}`"
-           target="_blank"
-        >
-          <img class="icon" src="./icon/tw.png" alt="tw-icon">
-        </a>
-      </td>
-      <td>
-        <a href="#"
-           onclick="this.href=`http://www.facebook.com/share.php?u=${baseUrl}`"
-           target="_blank"
-        >
-          <img class="icon" src="./icon/fb.png" alt="fb-icon">
-        </a>
-      </td>
-      <td>
-        <a href="#"
-           onclick="this.href=`https://connect.ok.ru/offer?url=${baseUrl}&title=Partynoise`"
-           target="_blank"
-        >
-            <img class="icon" src="./icon/ok.png" alt="ok-icon">
-        </a>
-      </td>
-      <td>
-        <a href="#"
-           onclick="this.href=`${videoUrl}`"
-           download
-        >
-           <img class="download-icon" src="./icon/gv.png" alt="gv-icon">
-        </a>
-      </td>
-    </tr>
-    
-  </div>
+</div>
 
 
-  <script>
-  var baseUrl = window.location.href;
-
-  var getUrl = window.location;
-  var videoUrl = getUrl .protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1]+ "/video.mp4";
-  </script>
+<script>
+</script>
 
 </body>
 
