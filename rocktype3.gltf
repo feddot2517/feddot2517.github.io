@@ -1,0 +1,157 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.1.46",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                2
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "name" : "Light",
+            "rotation" : [
+                0.16907575726509094,
+                0.7558803558349609,
+                -0.27217137813568115,
+                0.570947527885437
+            ],
+            "translation" : [
+                4.076245307922363,
+                5.903861999511719,
+                -1.0054539442062378
+            ]
+        },
+        {
+            "name" : "Camera",
+            "rotation" : [
+                0.483536034822464,
+                0.33687159419059753,
+                -0.20870360732078552,
+                0.7804827094078064
+            ],
+            "translation" : [
+                7.358891487121582,
+                4.958309173583984,
+                6.925790786743164
+            ]
+        },
+        {
+            "mesh" : 0,
+            "name" : "Cube",
+            "translation" : [
+                0,
+                1.0060518980026245,
+                0
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "Material",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.25294622778892517,
+                    0.09258049726486206,
+                    0.0812835693359375,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.4000000059604645
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Cube.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 42,
+            "max" : [
+                2.0176491737365723,
+                1.1412460803985596,
+                1.3075075149536133
+            ],
+            "min" : [
+                -1.5401005744934082,
+                -1.1615298986434937,
+                -1.4912728071212769
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 42,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 42,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 66,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 504,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 504,
+            "byteOffset" : 504
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 336,
+            "byteOffset" : 1008
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 132,
+            "byteOffset" : 1344
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 1476,
+            "uri" : "data:application/octet-stream;base64,QoEdvyBqED8GVZ2/BCLFvwAAgL8AAIC/rNDEv4SSW75AkwC/AACAvwAAgL8AAIA/GjWgv6AZyz3Ia6k9BCLFvwAAgL8AAIC/QoEdvyBqED8GVZ2/E/klv9pSgL+RD76/KiEBQDpW+D0gWbq7srXKPwOtlL9qKeS9cLzxPwAAgL8AAIC/Q8i0P1oUkj+hRXG/aLdJP7Jl7D5oXKc/AACAvwAAgL8AAIA/ZhbVPg32kr/YjFw/aLdJP7Jl7D5oXKc/GjWgv6AZyz3Ia6k9srXKPwOtlL9qKeS9ZhbVPg32kr/YjFw/AACAvwAAgL8AAIA/cLzxPwAAgL8AAIC/khg0PwAAgL8H4r6/BCLFvwAAgL8AAIC/E/klv9pSgL+RD76/QoEdvyBqED8GVZ2/GjWgv6AZyz3Ia6k9aLdJP7Jl7D5oXKc/Q8i0P1oUkj+hRXG/khg0PwAAgL8H4r6/Q8i0P1oUkj+hRXG/cLzxPwAAgL8AAIC/Q8i0P1oUkj+hRXG/khg0PwAAgL8H4r6/E/klv9pSgL+RD76/QoEdvyBqED8GVZ2/QoEdvyBqED8GVZ2/rNDEv4SSW75AkwC/GjWgv6AZyz3Ia6k9aLdJP7Jl7D5oXKc/ZhbVPg32kr/YjFw/srXKPwOtlL9qKeS9KiEBQDpW+D0gWbq7kd5+v+jztz1Ert88kd5+v+jztz1Ert88kd5+v+jztz1Ert88kd5+v+jztz1Ert88kd5+v+jztz1Ert88lY/xvhxcGz6cWV6/lY/xvhxcGz6cWV6/lY/xvhxcGz6cWV6/k2RrP9XmwT4Uqtc9k2RrP9XmwT4Uqtc9k2RrP9XmwT4Uqtc9k2RrP9XmwT4Uqtc9k2RrP9XmwT4Uqtc9vjicviSTND6Ak28/vjicviSTND6Ak28/vjicviSTND6Ak28/vjicviSTND6Ak28/mnAZvS2Bf7+PTEu9mnAZvS2Bf7+PTEu9mnAZvS2Bf7+PTEu9mnAZvS2Bf7+PTEu9mnAZvS2Bf7+PTEu9mnAZvS2Bf7+PTEu9mnAZvS2Bf7+PTEu9a3eUvmqwbz+69Uo+a3eUvmqwbz+69Uo+a3eUvmqwbz+69Uo+a3eUvmqwbz+69Uo+aOXCPubm3z0xEWu/aOXCPubm3z0xEWu/aOXCPubm3z0xEWu/Oao9PS3STz5XZHq/Oao9PS3STz5XZHq/Oao9PS3STz5XZHq/Oao9PS3STz5XZHq/Wl4sv0qHPD/JXIa9Wl4sv0qHPD/JXIa9Wl4sv0qHPD/JXIa98KEhP+1mn74G0jU/8KEhP+1mn74G0jU/8KEhP+1mn74G0jU/8KEhP+1mn74G0jU/AAAgPwAAQD8AAMA+AABAPwfTCD/aNFw/AADAPgAAgD8AACA/AACAPwAAwD4AAEA/AAAgPwAAQD8AAMA+dtosP6+xCj+2Osg+AADAPqBsxD4AAMA+AAAAPwAAID8AAAA/AAAgPwAAgD4AAMA+AAAAAAAAwD4AAIA+AAAgPwAAgD4AACA/AAAAAAAAwD6gbMQ+AADAPgAAgD4AAAA+AACAPgAAwD4AAAA/d0ONPgAAAD8AAAA+AAAAPyiWTD4AAAA/AABgPwAAAD8AAGA/AACAPgAAID8AAIA+AAAgPwAAAD8AAMA+RF4ZPwAAID8AAAA/AADAPgAAAD8AACA/AAAAPwAAwD5EXhk/AADAPnbaLD8AACA/AABAPwAAID8AAEA/B9MIP9o0XD8AACA/AACAPwAAID8AAIA+AADAPgAAgD4AAMA+oGzEPq+xCj+2Osg+AAABAAIAAgABAAMAAgADAAQABQAGAAcACAAJAAoACAAKAAsADAAIAAsADQAOAA8AEAANAA8AEQASABMAFAARABMAFQAUABMAFQATABYAFwAVABYAGAAZABoAGAAaABsAHAAdAB4AHwAgACEAHwAhACIAIwAkACUAJgAnACgAJgAoACkA"
+        }
+    ]
+}
