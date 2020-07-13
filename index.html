@@ -1,70 +1,40 @@
-<!doctype html>
-<html class="no-js" lang="">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>Kitty 3d models</title>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="Main.css">
-    <meta name="theme-color" content="#e128f3">
-    <link rel="icon" href="/favicon.png">
-    <meta content="/favicon.png" itemprop="image">
-    <meta name="description" content="Kitty 3d models">
-    <link rel="apple-touch-icon" href="/favicon.png">
-    <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" href="./index.css">
+    <meta name="theme-color" content="#fafafa">
 
+    <title>Портфолио</title>
 </head>
-
 <body>
 
-<script type="module"
-        src="https://unpkg.com/@google/model-viewer@0.3.1/dist/model-viewer.js">
-</script>
-
-<script nomodule
-        src="https://unpkg.com/@google/model-viewer@0.3.1/dist/model-viewer-legacy.js">
-</script>
-
-<div class="Main">
-  <div class="Main-menu"></div>
-  <div class="Main-view">
-    <div class="Main-view_block">
-      <model-viewer
-              src="./111.gltf"
-              alt="A 3D model of a 2 cylinder"
-              auto-rotate
-              width="100%"
-              camera-controls>
-      </model-viewer>
+<div class="menu">
+    <div class="menu__header">
+        <img src="./img/memoji.png"/>
+        <div class="menu__header-text">Портфолио
+            <div class="menu__header-text-dev">Разработчик масок в 
+                <span class="menu__header-text-dev_instagram">instagram</span>
+                <span class="menu__header-text-dev_name">Николай Лавров</span>
+            </div>
+        </div>
     </div>
-
-    <div class="Main-view_block">
-      <model-viewer
-              src="./flofer.gltf"
-              alt="A 3D model of a 2 cylinder"
-              auto-rotate
-              width="100%"
-              camera-controls>
-      </model-viewer>
+    <div class="menu__navigator">
+        <div class='menu__navigator-item one'>
+            Маски
+        </div>
+        <div class='menu__navigator-item two'>
+            Игры
+        </div>
+        <div class='menu__navigator-item three'>
+            Пресеты
+        </div>
+        <div class='menu__navigator-item four'>
+            3D модели
+        </div>
     </div>
-
-    <div class="Main-view_block">
-      <model-viewer
-              src="./coffe.gltf"
-              alt="A 3D model of a 2 cylinder"
-              auto-rotate
-              width="100%"
-              camera-controls>
-      </model-viewer>
-    </div>
-
-  </div>
 </div>
 
-
-<script>
-</script>
-
 </body>
-
 </html>

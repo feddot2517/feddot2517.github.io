@@ -1,0 +1,96 @@
+@font-face {
+    font-family: Pompadur; /* Имя шрифта */
+    src: url(fonts/index.otf);
+   }
+
+body {
+    font-family: Pompadur;
+    padding: 0;
+    margin: 0;
+}
+
+.menu {
+    min-height: 70vh;
+    width: 100%;
+    background: linear-gradient(to right, #006DF0, #007CF8 );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 1200px;
+}
+
+.menu__navigator {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    min-height: 70px;
+    width: 85%;
+    background: blue;
+    margin-bottom: 25px;
+}
+
+.menu__navigator-item {
+    white-space: nowrap;
+    font-family: Pompadur;
+    text-transform: uppercase;
+    user-select: none;
+    cursor: pointer;
+    transition: background-color 0.8s;
+    font-weight: bolder;
+    color: white;
+    font-size: 25pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 25%;
+    flex-shrink: 0;
+}
+
+.menu__navigator-item.one {
+    background: #319dff;
+}
+
+.menu__navigator-item.two {
+    background: #3096f0;
+}
+
+.menu__navigator-item.three {
+    background: #0085eb;
+}
+
+.menu__navigator-item.four {
+    background: #0070ed;
+}
+
+.menu__header {
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.menu__header-text {
+    text-align: right;
+    width: 40%;
+    font-size: calc(90vh/16*9 * 0.155);
+    color: white;
+    text-transform: uppercase;
+    margin-left: 25px;
+    align-self: center;
+}
+
+.menu__header-text-dev {
+    white-space: nowrap;
+    font-size: calc(90vh/16*9 * 0.055);
+}
+
+.menu__header-text-dev_instagram {
+    color: #FFAA30
+}
+
+.menu__header-text-dev_name {
+    display: block;
+    font-size: calc(90vh/16*9 * 0.08);
+}
