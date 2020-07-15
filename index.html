@@ -4,15 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./index.css">
-    <link rel="stylesheet" href="styles/plyr.css" />
+    <link rel="stylesheet" href="styles/plyr.css"/>
     <meta name="theme-color" content="#fafafa">
 
 
     <title>Портфолио</title>
 </head>
 <body>
+<script src="js/render.js"></script>
+<script src="js/plyr.polyfilled.js"></script>
+<script>
 
-<div class="menu">
+</script>
+<div class="menu" id="menu">
     <div class="container">
         <div class="menu__header">
             <img src="./img/memoji.png"/>
@@ -23,51 +27,36 @@
                 </div>
             </div>
         </div>
-        <div class="menu__navigator">
-            <div class='menu__navigator-item one'>
+        <div id="navigator" class="menu__navigator">
+            <a href="#masks" class='menu__navigator-item one'>
                 Маски
-            </div>
-            <div class='menu__navigator-item two'>
+            </a>
+
+            <a href="#games" class='menu__navigator-item two'>
                 Игры
-            </div>
-            <div class='menu__navigator-item three'>
+            </a>
+
+            <a href="#presets" class='menu__navigator-item three'>
                 Пресеты
-            </div>
-            <div class='menu__navigator-item four'>
+            </a>
+
+            <a href="#models" class='menu__navigator-item four'>
                 3D модели
-            </div>
+            </a>
         </div>
     </div>
 </div>
+<div id="masks">
 
-<div class="mask__example">
-    <div class="container">
-        <div class="video">
-            <video id="mask1" width="420" height="730" controls data-plyr-config='{"controls": ["play", "restart"]}' style="width: 348px; border-radius: 40px">
-                <source src="media/mask1.mp4" type="video/mp4">
-            </video>
-            <div class="mask__example-description">
-                <div class="mask__example-description-title">
-                    Маска<br>Ball Game
-                </div>
-                <div class="mask__example-description-body">
-                    Маска для Московского онлайн
-                    магазина Yolo Shop. Эффект
-                    содержит неоновую рамку
-                    с названием бренда.
-                    При моргании появляются
-                    зеленые линзы.
-                </div>
-                <div class="mask__example_button-test-effect"></div>
-            </div>
-
-         </div>
-    </div>
 </div>
 
-<script src="js/plyr.polyfilled.js"></script>
-<script>
-    const player = new Plyr('#mask1');
-</script>
+<div id="games">
+
+</div>
+
+<div id="presets">
+
+</div>
+
 </body>
 </html>
