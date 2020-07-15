@@ -4,37 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="styles/plyr.css" />
     <meta name="theme-color" content="#fafafa">
+
 
     <title>Портфолио</title>
 </head>
 <body>
 
 <div class="menu">
-    <div class="menu__header">
-        <img src="./img/memoji.png"/>
-        <div class="menu__header-text">Портфолио
-            <div class="menu__header-text-dev">Разработчик масок в 
-                <span class="menu__header-text-dev_instagram">instagram</span>
-                <span class="menu__header-text-dev_name">Николай Лавров</span>
+    <div class="container">
+        <div class="menu__header">
+            <img src="./img/memoji.png"/>
+            <div class="menu__header-text">Портфолио
+                <div class="menu__header-text-dev">Разработчик масок в
+                    <span class="menu__header-text-dev_instagram">instagram</span>
+                    <span class="menu__header-text-dev_name">Николай Лавров</span>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="menu__navigator">
-        <div class='menu__navigator-item one'>
-            Маски
-        </div>
-        <div class='menu__navigator-item two'>
-            Игры
-        </div>
-        <div class='menu__navigator-item three'>
-            Пресеты
-        </div>
-        <div class='menu__navigator-item four'>
-            3D модели
+        <div class="menu__navigator">
+            <div class='menu__navigator-item one'>
+                Маски
+            </div>
+            <div class='menu__navigator-item two'>
+                Игры
+            </div>
+            <div class='menu__navigator-item three'>
+                Пресеты
+            </div>
+            <div class='menu__navigator-item four'>
+                3D модели
+            </div>
         </div>
     </div>
 </div>
 
+<div class="mask__example">
+    <div class="video">
+        <video id="mask1" width="420" height=730" controls data-plyr-config='{"controls": ["play", "restart"]}' style="width: 348px; border-radius: 40px">
+            <source src="media/mask1.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="mask__example-text">
+        КОЛЯ ТЫ НАХУЯ ЗАЛЕЗ В ТЕЛЕФОН ВЫЛЕЗАЙ
+    </div>
+</div>
+
+<script src="js/plyr.polyfilled.js"></script>
+<script>
+    const player = new Plyr('#mask1');
+</script>
 </body>
 </html>

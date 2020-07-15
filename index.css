@@ -7,10 +7,19 @@ body {
     font-family: Pompadur;
     padding: 0;
     margin: 0;
+    height: 200vh;
 }
 
+
+.container {
+    max-width: 1100px;
+    height: fit-content;
+    padding: 50px 0;
+    width: 100%;
+}
+
+
 .menu {
-    min-height: 70vh;
     width: 100%;
     background: linear-gradient(to right, #006DF0, #007CF8 );
     display: flex;
@@ -25,7 +34,7 @@ body {
     display: flex;
     flex-direction: row;
     min-height: 70px;
-    width: 85%;
+    width: 100%;
     background: blue;
     margin-bottom: 25px;
 }
@@ -71,6 +80,7 @@ body {
 }
 
 .menu__header-text {
+    user-select: none;
     text-align: right;
     font-size: 70pt;
     color: white;
@@ -91,4 +101,42 @@ body {
 .menu__header-text-dev_name {
     display: block;
     font-size: 32pt;
+}
+
+.video {
+    margin-left: -100px;
+    margin-top: 50px;
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 690px;
+    width: 430px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.video:after {
+    margin-top: -310px;
+    position: absolute;
+    content: '';
+    width: 200px;
+    height: 25px;
+    border-radius: 0 0 50px 50px;
+    background: black;
+}
+
+.mask__example {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+.mask__example-text {
+    font-size: 50pt;
+    flex-basis: 50%;
+    max-width: 800px;
 }
