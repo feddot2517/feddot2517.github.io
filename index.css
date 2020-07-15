@@ -130,18 +130,41 @@ body {
     min-width: 1200px;
 }
 
-.mask__example-text {
-    user-select: none;
+.mask__example-description{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.mask__example_button-test-effect {
+    align-self: flex-end;
+    justify-self: flex-end;
+    min-width: 80px;
+    min-height: 80px;
+    border: 2px solid black;
+    border-radius: 50px;
+    transition: background-color 2s;
+}
+
+.mask__example_button-test-effect:hover {
+    background: black;
+}
+
+.mask__example-description-title {
     text-align: center;
+    background-position-y: center;
+    align-self: flex-start;
+    padding: 100px;
     font-size: 30pt;
     color: white;
-    text-transform: uppercase;
     margin-left: 25px;
-    align-self: center;
     background-image: url(img/streak.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    padding: 20px;
+}
 
-
+.mask__example-description-body {
+    font-size: 25pt;
+    font-weight: 200;
+    font-family: Comfortaa;
 }
