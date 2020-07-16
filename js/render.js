@@ -1,36 +1,7 @@
 const item = [
 
     {
-        type: 'masks',
-        title: 'Ball Game!',
-        body:
-            `Маска для Московского онлайн магазина Yolo Shop.
-            Эффект содержит неоновую рамку с названием бренда.
-            При моргании появляются зеленые линзы.`,
-        video: 'mask1.mp4',
-        background: '#ffffff'
-    },
-    {
-        type: 'masks',
-        title: 'Ball Game!',
-        body:
-            `Маска для Московского онлайн магазина Yolo Shop.
-            Эффект содержит неоновую рамку с названием бренда.
-            При моргании появляются зеленые линзы.`,
-        video: 'mask1.mp4',
-        background: '#ffffff'
-    },
-    {
-        type: 'masks',
-        title: 'Ball Game!',
-        body:
-            `Маска для Московского онлайн магазина Yolo Shop.
-            Эффект содержит неоновую рамку с названием бренда.
-            При моргании появляются зеленые линзы.`,
-        video: 'mask1.mp4',
-        background: '#ffffff'
-    },
-    {
+        videoPosition: 'right',
         type: 'masks',
         title: 'Ball Game!',
         body:
@@ -42,139 +13,135 @@ const item = [
     },
 
     {
-        type: 'games',
-        title: 'игра',
+        videoPosition: 'left',
+        type: 'masks',
+        title: 'Ball Game!',
         body:
-            `игра р агр га ра гр аг раг аа рг рага рга ра г раг арга ра гра га р`,
+            `Маска для Московского онлайн магазина Yolo Shop.
+            Эффект содержит неоновую рамку с названием бренда.
+            При моргании появляются зеленые линзы.`,
         video: 'mask1.mp4',
-        background: '#34a1ff'
+        background: '#68afe0'
+    },
+    {
+        videoPosition: 'right',
+        type: 'masks',
+        title: 'Ball Game!',
+        body:
+            `Маска для Московского онлайн магазина Yolo Shop.
+            Эффект содержит неоновую рамку с названием бренда.
+            При моргании появляются зеленые линзы.`,
+        video: 'mask1.mp4',
+        background: '#ffffff'
     },
 
     {
-        type: 'games',
-        title: 'игра',
+        videoPosition: 'left',
+        type: 'masks',
+        title: 'Ball Game!',
         body:
-            `игра р агр га ра гр аг раг аа рг рага рга ра г раг арга ра гра га р`,
+            `Маска для Московского онлайн магазина Yolo Shop.
+            Эффект содержит неоновую рамку с названием бренда.
+            При моргании появляются зеленые линзы.`,
         video: 'mask1.mp4',
-        background: '#34a1ff'
+        background: '#68afe0'
     },
     {
+        videoPosition: 'right',
         type: 'games',
-        title: 'игра',
+        title: 'Игрулечька!',
         body:
-            `игра р агр га ра гр аг раг аа рг рага рга ра г раг арга ра гра га р`,
+            `Прикольная игра игрулечка коля сделал вщ класс!!!!`,
         video: 'mask1.mp4',
-        background: '#34a1ff'
-    },
-    {
-        type: 'games',
-        title: 'игра',
-        body:
-            `игра р агр га ра гр аг раг аа рг рага рга ра г раг арга ра гра га р`,
-        video: 'mask1.mp4',
-        background: '#34a1ff'
-    },
-    {
-        type: 'games',
-        title: 'игра',
-        body:
-            `игра р агр га ра гр аг раг аа рг рага рга ра г раг арга ра гра га р`,
-        video: 'mask1.mp4',
-        background: '#34a1ff'
-    },
-    {
-        type: 'games',
-        title: 'игра',
-        body:
-            `игра р агр га ра гр аг раг аа рг рага рга ра г раг арга ра гра га р`,
-        video: 'mask1.mp4',
-        background: '#34a1ff'
+        background: '#ffffff'
     },
 
     {
-        type: 'presets',
-        title: 'пресет',
+        videoPosition: 'left',
+        type: 'games',
+        title: 'Еще одна игрулечка!!',
         body:
-            ` пресет пресет пресетпресет пресет пресетпресет пресет пресетпресет пресет пресет`,
+            `Тоже коля делал!!! ВЩ ОЧЕНЬ КРУТАЯ!!!`,
         video: 'mask1.mp4',
-        background: '#da73ff'
+        background: '#a470fd'
+    },
+    {
+        videoPosition: 'right',
+        type: 'games',
+        title: 'Игрулечька!',
+        body:
+            `Прикольная игра игрулечка коля сделал вщ класс!!!!`,
+        video: 'mask1.mp4',
+        background: '#ffffff'
     },
 
     {
-        type: 'presets',
-        title: 'пресет',
+        videoPosition: 'left',
+        type: 'games',
+        title: 'Еще одна игрулечка!!',
         body:
-            ` пресет пресет пресетпресет пресет пресетпресет пресет пресетпресет пресет пресет`,
+            `Тоже коля делал!!! ВЩ ОЧЕНЬ КРУТАЯ!!!`,
         video: 'mask1.mp4',
-        background: '#da73ff'
+        background: '#a470fd'
     },
     {
-        type: 'presets',
-        title: 'пресет',
+        videoPosition: 'right',
+        type: 'games',
+        title: 'Игрулечька!',
         body:
-            ` пресет пресет пресетпресет пресет пресетпресет пресет пресетпресет пресет пресет`,
+            `Прикольная игра игрулечка коля сделал вщ класс!!!!`,
         video: 'mask1.mp4',
-        background: '#da73ff'
+        background: '#ffffff'
+    },
+
+    {
+        videoPosition: 'left',
+        type: 'games',
+        title: 'Еще одна игрулечка!!',
+        body:
+            `Тоже коля делал!!! ВЩ ОЧЕНЬ КРУТАЯ!!!`,
+        video: 'mask1.mp4',
+        background: '#a470fd'
     },
 ]
 
 document.body.onload = () => {
     item.forEach((item,index) => {
         const maskExample = document.createElement("div");
-        maskExample.classList.add('mask__example');
-        maskExample.style.background = item.background
 
-        const container = document.createElement('div');
-        container.classList.add('container')
-
-        const videoContainer = document.createElement("div");
-        videoContainer.classList.add('video')
-
-        const video = document.createElement("video")
-        video.id = `player${index}`
-        video.width = 420;
-        video.height = 730;
-        video.controls = true;
-        video['data-plyr-config'] = {"controls": ["play", "restart"]}
-        video.style.width = "348px";
-        video.style.borderRadius = '40px'
-
-        const source = document.createElement("source");
-        source.src = `media/${item.video}`
-        source.type = "video/mp4"
-
-        const maskExampleDescription = document.createElement('div')
-        maskExampleDescription.classList.add('mask__example-description');
-
-        const maskExampleDescriptionTittle = document.createElement('div');
-        maskExampleDescriptionTittle.classList.add('mask__example-description-title')
-        maskExampleDescriptionTittle.innerText = item.title
-
-        const maskExampleDescriptionBody = document.createElement('div');
-        maskExampleDescriptionBody.classList.add('mask__example-description-body')
-        maskExampleDescriptionBody.innerText = `Маска\n${item.body}`
-
-        const button = document.createElement('div');
-        button.classList.add('mask__example_button-test-effect')
-
-        maskExampleDescription.appendChild(maskExampleDescriptionTittle)
-        maskExampleDescription.appendChild(maskExampleDescriptionBody)
-        maskExampleDescription.appendChild(button)
-
-        video.appendChild(source)
-
-        videoContainer.appendChild(video)
-        videoContainer.appendChild(maskExampleDescription)
-        container.appendChild(videoContainer)
-        maskExample.appendChild(container)
+        maskExample.innerHTML = `
+            <div class="mask__example" style="background: ${item.background}">
+                <div class="container">
+                    <div class="video ${item.videoPosition}">
+                        <video id="player${index}" width="420" height="730" controls data-plyr-config='{"controls": ["play", "restart"]}' style="width: 348px; border-radius: 40px">
+                            <source src="media/mask1.mp4" type="video/mp4">
+                        </video>
+                        <div class="mask__example-description">
+                            <div class="mask__example-description-title">
+                                ${item.type==="masks"?'Маска':item.type==="games"?"Игра":item.type="presets"?'Пресет':'Модель'}<br>Ball Game
+                            </div>
+                            <div class="mask__example-description-body">
+                                Маска для Московского онлайн
+                                магазина Yolo Shop. Эффект
+                                содержит неоновую рамку
+                                с названием бренда.
+                                При моргании появляются
+                                зеленые линзы.
+                            </div>
+                        </div>
+            
+                     </div>
+                </div>`
 
         const target = document.getElementById(item.type)
         target.appendChild(maskExample)
 
-        const player = new Plyr(`#player${index}`, {"controls": ["play", "restart"]});
+        new Plyr(`#player${index}`, {"controls": ["play", "restart"]});
     })
 
 
+
+    // фиксирование меню
     const navBar = document.getElementById('navigator')
     const menu = document.getElementById('menu')
     const initialNavBarOffset = navBar.offsetTop;
