@@ -13,6 +13,25 @@ body {
     margin: 0;
 }
 
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    border-radius: 25px;
+    background: #ff475c;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #db4254;
+}
+
 a {
     color: white;
     text-decoration: none; /* Убирает подчеркивание для ссылок */
@@ -29,6 +48,20 @@ a:hover {
     height: fit-content;
     padding: 50px 0;
     width: 100%;
+}
+
+.container-share {
+    margin-left: auto;
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    top: 0;
+    right: 0;
+}
+
+.container-share a {
+    width: 30px;
+    height: 30px;
 }
 
 
@@ -78,9 +111,15 @@ a:hover {
     flex-shrink: 0;
 }
 
+.menu__navigator-item > * :hover {
+    background: black;
+}
+
 .menu__navigator-item.one {
     background: #319dff;
 }
+
+.menu__navigator-item.one:hover{ background: white}
 
 .menu__navigator-item.two {
     background: #3096f0;
