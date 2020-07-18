@@ -193,6 +193,10 @@ a:hover {
     background-repeat: no-repeat;
 }
 
+.mask__example-description-title.whitestreak {
+    background-image: url(img/streak-white.png);
+}
+
 .mask__example-description-body {
     font-size: 25pt;
     font-weight: 200;

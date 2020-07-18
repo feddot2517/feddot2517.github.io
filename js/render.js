@@ -9,7 +9,9 @@ const item = [
             Эффект содержит неоновую рамку с названием бренда.
             При моргании появляются зеленые линзы.`,
         video: 'mask1.mp4',
-        background: '#ffffff'
+        fontColor: 'white',
+        streak: 'white',
+        background: '#ffffff',
     },
 
     {
@@ -21,6 +23,8 @@ const item = [
             Эффект содержит неоновую рамку с названием бренда.
             При моргании появляются зеленые линзы.`,
         video: 'mask1.mp4',
+        fontColor: 'black',
+        streak: 'white',
         background: '#68afe0'
     },
     {
@@ -32,6 +36,8 @@ const item = [
             Эффект содержит неоновую рамку с названием бренда.
             При моргании появляются зеленые линзы.`,
         video: 'mask1.mp4',
+        fontColor: 'black',
+        streak: 'white',
         background: '#ffffff'
     },
 
@@ -44,6 +50,8 @@ const item = [
             Эффект содержит неоновую рамку с названием бренда.
             При моргании появляются зеленые линзы.`,
         video: 'mask1.mp4',
+        fontColor: 'black',
+        streak: 'white',
         background: '#68afe0'
     },
     {
@@ -53,6 +61,8 @@ const item = [
         body:
             `Прикольная игра игрулечка коля сделал вщ класс!!!!`,
         video: 'mask1.mp4',
+        fontColor: 'black',
+        streak: 'white',
         background: '#ffffff'
     },
 
@@ -63,6 +73,8 @@ const item = [
         body:
             `Тоже коля делал!!! ВЩ ОЧЕНЬ КРУТАЯ!!!`,
         video: 'mask1.mp4',
+        fontColor: 'black',
+        streak: 'white',
         background: '#a470fd'
     },
     {
@@ -72,6 +84,8 @@ const item = [
         body:
             `Прикольная игра игрулечка коля сделал вщ класс!!!!`,
         video: 'mask1.mp4',
+        fontColor: 'black',
+        streak: 'white',
         background: '#ffffff'
     },
 
@@ -82,6 +96,8 @@ const item = [
         body:
             `Тоже коля делал!!! ВЩ ОЧЕНЬ КРУТАЯ!!!`,
         video: 'mask1.mp4',
+        fontColor: 'white',
+        streak: 'white',
         background: '#a470fd'
     },
     {
@@ -91,6 +107,8 @@ const item = [
         body:
             `Прикольная игра игрулечка коля сделал вщ класс!!!!`,
         video: 'mask1.mp4',
+        fontColor: 'black',
+        streak: 'white',
         background: '#ffffff'
     },
 
@@ -101,6 +119,8 @@ const item = [
         body:
             `Тоже коля делал!!! ВЩ ОЧЕНЬ КРУТАЯ!!!`,
         video: 'mask1.mp4',
+        fontColor: 'black',
+        streak: 'white',
         background: '#a470fd'
     },
 ]
@@ -117,16 +137,11 @@ document.body.onload = () => {
                             <source src="media/mask1.mp4" type="video/mp4">
                         </video>
                         <div class="mask__example-description">
-                            <div class="mask__example-description-title">
+                            <div class="mask__example-description-title ${item.streak==='white'?'whitestreak':''}">
                                 ${item.type==="masks"?'Маска':item.type==="games"?"Игра":item.type="presets"?'Пресет':'Модель'}<br>Ball Game
                             </div>
-                            <div class="mask__example-description-body">
-                                Маска для Московского онлайн
-                                магазина Yolo Shop. Эффект
-                                содержит неоновую рамку
-                                с названием бренда.
-                                При моргании появляются
-                                зеленые линзы.
+                            <div class="mask__example-description-body" style="color:${item.fontColor};">
+                                ${item.body}
                             </div>
                         </div>
             
