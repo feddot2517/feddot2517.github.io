@@ -6,11 +6,26 @@
     <meta name="theme-color" content="#fafafa">
     <title>qwe</title>
 </head>
+<script>
+var blob = new Blob([
+`BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:
+DTSTART:20210225T090000Z
+DTEND:20210225T141000Z
+LOCATION:Для добавления через линк
+SUMMARY:Тестовое событие 
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
+UID:ssp8yeciy9
+DTSTAMP:20210228
+PRODID:localhost:3000`
+], {type: "octet/stream"});
+</script>
 <body>
-<a href="attach:feddot2517.github.io/testEvent.ics">Линк1</a>
-<a href="webcal:feddot2517.github.io/testEvent.ics">Линк2</a>
-<a href="webcal://feddot2517.github.io/testEvent.ics">Линк3</a>
-<a href="https://feddot2517.github.io/testEvent.ics">Линк4</a>
-<a href="https://feddot2517.github.io/testEvent.ics" target="_blank">Линк5</a>
+<button onclick="window.open(window.URL.createObjectURL(blob))">Нажми меня</button>
 </body>
 </html>
