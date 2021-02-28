@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8e7165bf-0be8-4f3b-8575-91b4d4e157a5" name="Default Changelist" comment="qwe">
+      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/plyr.polyfilled.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/plyr.polyfilled.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/render.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/render.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/mask1.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/plyr.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/plyr.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1edjwNW0PeXtgAI7lNbb4qfHzXS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/index.html" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/.archive/img/memoji.png" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img" />
+      <recent name="$PROJECT_DIR$/media" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/feddot2517.github.io/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8e7165bf-0be8-4f3b-8575-91b4d4e157a5" name="Default Changelist" comment="" />
+      <created>1594658601536</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594658601536</updated>
+      <workItem from="1594658603717" duration="6896000" />
+      <workItem from="1594709801687" duration="18000" />
+      <workItem from="1594798322578" duration="1030000" />
+      <workItem from="1594816579935" duration="2640000" />
+      <workItem from="1594831440032" duration="8216000" />
+      <workItem from="1594879159755" duration="132000" />
+      <workItem from="1594886363417" duration="1972000" />
+      <workItem from="1594920048930" duration="42000" />
+      <workItem from="1595067632852" duration="5245000" />
+      <workItem from="1595225278900" duration="22000" />
+      <workItem from="1596125404048" duration="4177000" />
+      <workItem from="1596164498247" duration="299000" />
+      <workItem from="1596183504620" duration="599000" />
+      <workItem from="1596259747478" duration="26000" />
+    </task>
+    <task id="LOCAL-00001" summary="audio player, head container restyling">
+      <created>1594799052803</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1594799052803</updated>
+    </task>
+    <task id="LOCAL-00002" summary="audio player, head container restyling">
+      <created>1594819250013</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1594819250013</updated>
+    </task>
+    <task id="LOCAL-00003" summary="rendering from obj, scroll to block, fixed menu when scroll">
+      <created>1594841555325</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1594841555325</updated>
+    </task>
+    <task id="LOCAL-00004" summary="positioning for examples, right or left">
+      <created>1594888255406</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1594888255407</updated>
+    </task>
+    <task id="LOCAL-00005" summary="qwe">
+      <created>1595068485265</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1595068485265</updated>
+    </task>
+    <task id="LOCAL-00006" summary="qwe">
+      <created>1595071943687</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1595071943687</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="audio player, head container restyling" />
+    <MESSAGE value="rendering from obj, scroll to block, fixed menu when scroll" />
+    <MESSAGE value="positioning for examples, right or left" />
+    <MESSAGE value="qwe" />
+    <option name="LAST_COMMIT_MESSAGE" value="qwe" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="723" y="399" width="223" height="245" key="#Notifications" timestamp="1594817464426">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="723" y="399" width="223" height="245" key="#Notifications/0.0.1680.1050@0.0.1680.1050" timestamp="1594817464426" />
+    <state x="298" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594835909185">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="298" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1594835909185" />
+    <state x="100" y="99" width="1480" height="850" key="DiffContextDialog" timestamp="1594798819981">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="100" y="99" width="1480" height="850" key="DiffContextDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1594798819981" />
+    <state x="623" y="282" width="424" height="479" key="FileChooserDialogImpl" timestamp="1594835907299">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="623" y="282" width="424" height="479" key="FileChooserDialogImpl/0.0.1680.1050@0.0.1680.1050" timestamp="1594835907299" />
+    <state width="1638" height="345" key="GridCell.Tab.0.bottom" timestamp="1594841573656">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="345" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1594841573656" />
+    <state width="1638" height="345" key="GridCell.Tab.0.center" timestamp="1594841573655">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="345" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1594841573655" />
+    <state width="1638" height="345" key="GridCell.Tab.0.left" timestamp="1594841573655">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="345" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1594841573655" />
+    <state width="1638" height="345" key="GridCell.Tab.0.right" timestamp="1594841573656">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="345" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1594841573656" />
+    <state width="1638" height="345" key="GridCell.Tab.1.bottom" timestamp="1594841573658">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="345" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1594841573658" />
+    <state width="1638" height="345" key="GridCell.Tab.1.center" timestamp="1594841573657">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="345" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1594841573657" />
+    <state width="1638" height="345" key="GridCell.Tab.1.left" timestamp="1594841573656">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="345" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1594841573656" />
+    <state width="1638" height="345" key="GridCell.Tab.1.right" timestamp="1594841573657">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="345" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1594841573657" />
+    <state width="1638" height="345" key="GridCell.Tab.2.bottom" timestamp="1594841573659">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="345" key="GridCell.Tab.2.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1594841573659" />
+    <state width="1638" height="345" key="GridCell.Tab.2.center" timestamp="1594841573659">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="345" key="GridCell.Tab.2.center/0.0.1680.1050@0.0.1680.1050" timestamp="1594841573659" />
+    <state width="1638" height="345" key="GridCell.Tab.2.left" timestamp="1594841573658">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="345" key="GridCell.Tab.2.left/0.0.1680.1050@0.0.1680.1050" timestamp="1594841573658" />
+    <state width="1638" height="345" key="GridCell.Tab.2.right" timestamp="1594841573659">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="345" key="GridCell.Tab.2.right/0.0.1680.1050@0.0.1680.1050" timestamp="1594841573659" />
+    <state x="435" y="260" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1595068490157">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="435" y="260" width="800" height="523" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1595068490157" />
+    <state x="544" y="275" width="591" height="498" key="find.popup" timestamp="1594836514865">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="544" y="275" width="591" height="498" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1594836514865" />
+    <state x="513" y="315" width="654" height="412" key="git4idea.merge.GitPullDialog" timestamp="1594817476065">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="513" y="315" width="654" height="412" key="git4idea.merge.GitPullDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1594817476065" />
+    <state x="503" y="229" width="672" height="705" key="search.everywhere.popup" timestamp="1595071935864">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="503" y="220" width="672" height="678" key="search.everywhere.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1594662351811" />
+    <state x="503" y="229" width="672" height="705" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1595071935864" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/feddot2517_github_io$Unnamed.dat" NAME="Unnamed Coverage Results" MODIFIED="1594835930294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
